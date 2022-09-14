@@ -1,6 +1,6 @@
 # Gpg4Win 3.x.xx Releases
 
-### Deutsch
+### (de)
 
 #### Der Release-Quellcode dieser Version von "Gpg4Win" entspricht (abgesehen von Anpassungen zum Debian Compiler-System) zu 100% des Quellcodes der entsprechenden "[Release-Version von GnuPG VS Desktop / Gpg4Win](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)" auf dem GnuPG Git Entwicklungs-Portal. 😃
 
@@ -12,7 +12,7 @@
 
 
 
-### English
+### (en)
 
 #### The release source-code of this version of "Gpg4Win" corresponds (apart from adjustments to the Debian compiler system) to 100% of the source-code of the corresponding "[Release version of GnuPG VS Desktop / Gpg4Win](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)" on the GnuPG Git development portal.
 
