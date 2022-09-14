@@ -1,7 +1,8 @@
 # Gpg4Win
 
-  - [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) der "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags) ...
-  - [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) of the "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags) ...
+(de): [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) der "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)
+<br>
+(en): [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) of the "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)
 
 <br>
 <p align="center">
@@ -9,7 +10,7 @@
 </p>
 
 
-### Deutsch
+### (de)
 
 #### Der Release-Quellcode dieser Version von "Gpg4Win" entspricht (abgesehen von Anpassungen zum Debian Compiler-System) zu 100% des Quellcodes der entsprechenden "[Release-Version von GnuPG VS Desktop / Gpg4Win](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)" auf dem GnuPG Git Entwicklungs-Portal. 😃
 
@@ -20,7 +21,7 @@
 #### "[GpgTools](https://github.com/landsh-de/GpgTools)" ist ein "Addon" als Installer-Paket zur Herstellung der "VS-NfD"-Konformität ("de-vs" Modus) für das Open-Source Projekt "[Gpg4Win](https://github.com/landsh-de/Gpg4Win)".
 
 
-### English
+### (en)
 
 #### The release source-code of this version of "Gpg4Win" corresponds (apart from adjustments to the Debian compiler system) to 100% of the source-code of the corresponding "[Release version of GnuPG VS Desktop / Gpg4Win](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)" on the GnuPG Git development portal.
 
