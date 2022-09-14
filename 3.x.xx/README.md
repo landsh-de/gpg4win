@@ -21,5 +21,3 @@
 #### To activate the "VS-NfD" conformity ("de-vs" mode) of "Gpg4Win", please install the companion tool "[GpgTools](https://github.com/landsh-de/GpgTools/releases)" in the appropriate version (i. e.: Gpg4Win 3.1.23 <=> GpgTools 1.3.23.x / Gpg4Win 3.1.24 <=> GpgTools 1.3.24.x) ...
 
 #### "[GpgTools](https://github.com/landsh-de/GpgTools)" is an "addon" as an installer package to create "VS-NfD" conformity ("de-vs" mode) for the open source project "[Gpg4Win](https://github.com/landsh-de/Gpg4Win)".
-
-<br><br>
