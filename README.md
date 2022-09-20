@@ -7,8 +7,8 @@
 - (en): Gpg4Win 3.1.24 released :smiley: :tada:
 
 ### 20220920:
-- :shit: (de): Aufgrund eines [IMAP-Fehlers](https://dev.gnupg.org/T6203) in der Version 2.5.4 des Outlook-Plugins "GpgOL" von "Gpg4Win" 3.1.24, arbeitet Andre Heinecke intensiv an einer Lösung. Bitte haben Sie noch etwas Geduld und warten Sie auf eine aktualisierte Version des Plugins.
-- :shit: (en): Because of an [IMAP-Error](https://dev.gnupg.org/T6203) in version 2.5.4 of the Outlook-plugin "GpgOL" in "Gpg4Win" 3.1.24, Andre Heinecks is working hard on a solution. Please be patient and wait for an updated version of the plugin.
+- :shit: (de): **"Eingeschränkte Kommunikation mit IMAP-Postfächern"** / Aufgrund eines [IMAP-Fehlers](https://dev.gnupg.org/T6203) in der Version 2.5.4 des Outlook-Plugins "GpgOL" von "Gpg4Win" 3.1.24, kommt es zu Kommunikationsproblemen mit IMAP-Postfächern.
+- :shit: (en): **"Limited communication with IMAP mailboxes"** / Because of an [IMAP-Error](https://dev.gnupg.org/T6203) in version 2.5.4 of the Outlook-plugin "GpgOL" in "Gpg4Win" 3.1.24, there are communication-issues with IMAP mailboxes.
 
 <br>
 
