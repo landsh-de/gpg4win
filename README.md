@@ -1,3 +1,8 @@
+# News
+### 20220920:
+- (de): Aufgrund eines [IMAP-Fehlers](https://dev.gnupg.org/T6203) in der Version 2.5.4 des Outlook-Plugins "GpgOL" von "Gpg4Win" 3.1.24, arbeitet Andre Heinecke intensiv an einer Lösung. Bitte haben Sie noch etwas Geduld und warten Sie auf eine aktualisierte Version des Plugins.
+- (en): Because of an [IMAP-Error](https://dev.gnupg.org/T6203) in version 2.5.4 of the Outlook-plugin "GpgOL" in "Gpg4Win" 3.1.24, Andre Heinecks is working hard on a solution. Please be patient and wait for an updated version of the plugin.
+
 # Gpg4Win
 
 (de): [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) der "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)
