@@ -2,15 +2,24 @@
 [//]: # (Get emojis from here: https://github.com/markdown-templates/markdown-emojis)
 
 # News
-### 20220914:
+
+### 20220922 (Bugfix-Release Gpg4Win 3.1.24):
+
+- (de): Fehlerbehebung von GpgOL (Patch dem Build-System hinzugefügt)
+<br>&nbsp;&nbsp;GpgOL IPMAP-Fehlerbehebung (:pray:):
+<br>&nbsp;&nbsp;- Dies behebt den Fall, dass Nachrichten-Kopfzeilen in einer leeren Zeile enden.
+<br>&nbsp;&nbsp;- Dies führt bei einer Transition in den E-Mail-Body zu einem Rückgabewert von 42.
+<br>&nbsp;&nbsp;- Die Symptome sind Parser-Fehler im Protokoll von GpgOL und ein leerer E-Mail Inhalt mit 2 Attachements.
+
+- (en): Bugfix-Release Update of GpgOL (patch added to build-system)
+<br>&nbsp;&nbsp;GpgOL IMAP-Error-Fix (:pray:):
+<br>&nbsp;&nbsp;- This fixes the case where the message headers end in an empty line.
+<br>&nbsp;&nbsp;- This results in a transition to body with return code 42.
+<br>&nbsp;&nbsp;- The symptoms are parser errors in the GpgOL log and an empty email content with 2 attachments.
+
+### 20220914 (Release Gpg4Win 3.1.24):
 - (de): Gpg4Win 3.1.24 veröffentlicht :smiley: :tada:
 - (en): Gpg4Win 3.1.24 released :smiley: :tada:
-
-### 20220920:
-- :shit: (de): **"Eingeschränkte Kommunikation mit IMAP-Postfächern"** / Aufgrund eines [IMAP-Fehlers](https://dev.gnupg.org/T6203) in der Version 2.5.4 des Outlook-Plugins "GpgOL" von "Gpg4Win" 3.1.24, kommt es zu Kommunikationsproblemen mit IMAP-Postfächern.
-- :shit: (en): **"Limited communication with IMAP mailboxes"** / Because of an [IMAP-Error](https://dev.gnupg.org/T6203) in version 2.5.4 of the Outlook-plugin "GpgOL" in "Gpg4Win" 3.1.24, there are communication-issues with IMAP mailboxes.
-
-<br>
 
 # Gpg4Win
 
