@@ -6,7 +6,7 @@
 ### 20220922 (Bugfix-Release Gpg4Win 3.1.24):
 
 - (de): Fehlerbehebung von GpgOL (Patch dem Build-System hinzugefügt)
-<br>&nbsp;&nbsp;GpgOL IPMAP-Fehlerbehebung (:pray:):
+<br>&nbsp;&nbsp;GpgOL IMAP-Fehlerbehebung (:pray:):
 <br>&nbsp;&nbsp;- Dies behebt den Fall, dass Nachrichten-Kopfzeilen in einer leeren Zeile enden.
 <br>&nbsp;&nbsp;- Dies führt bei einer Transition in den E-Mail-Body zu einem Rückgabewert von 42.
 <br>&nbsp;&nbsp;- Die Symptome sind Parser-Fehler im Protokoll von GpgOL und ein leerer E-Mail Inhalt mit 2 Attachements.
