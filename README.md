@@ -3,6 +3,14 @@
 
 # News
 
+### 20221023 (Release-Update Gpg4Win 3.1.25) :smiley: :tada:
+
+- (de):
+Diese Version entspricht im Original dem Release "Gpg4Win" 3.1.25 mit einem zusätzlichen IMAP-Patch für GpgOL 2.5.4 (2.5.5), der gegenwärtig im Original von "Gpg4Win" / "GnuPG VS Desktop" der Version 3.1.25 nicht enthalten ist. Dieses Paket befindet sich gegenwärtig im Test und wird in den nächsten Stunden hier verfügbar sein. Alle Änderungen entsprechen ausser dem IMAP-Patch, dem Original-Quellcode. Somit sind die [Release-Informationen](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.25) identisch.
+
+- (en):
+The original version of this version corresponds to the "Gpg4Win" 3.1.25 release with an additional IMAP-patch for GpgOL 2.5.4 (2.5.5), which is currently not available in the original "Gpg4Win"- / "GnuPG VS Desktop"-version 3.1.25. This package is currently in testing and will be available here in the next few hours. Except for the IMAP patch, all changes correspond to the original source code. Thus, the [Release-Notes](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.25) are identical.
+
 ### 20220922 (Bugfix-Release Gpg4Win 3.1.24):
 
 - (de): Fehlerbehebung von GpgOL (Patch dem Build-System hinzugefügt)
