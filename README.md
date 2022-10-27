@@ -3,7 +3,7 @@
 
 # News
 
-### 20221023 (Release-Update Gpg4Win 3.1.25) :smiley: :tada:
+### 20221027 (Release-Update Gpg4Win 3.1.25 verfügbar) :smiley: :tada:
 
 - (de):
 Diese Version entspricht im Original dem Release "Gpg4Win" 3.1.25 mit einem zusätzlichen IMAP-Patch für GpgOL 2.5.4 (2.5.5), der gegenwärtig im Original von "Gpg4Win" / "GnuPG VS Desktop" der Version 3.1.25 nicht enthalten ist. Alle Änderungen entsprechen ausser dem IMAP-Patch, dem Original-Quellcode. Somit sind die [Release-Informationen](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.25) identisch. Der IMAP-Patch ist übrigens in der Version 4.0.4 schon enthalten, da hier "GpgOL 2.5.5" verwendet wird und dies der einzige Unterschied zu "GpgOL 2.5.4" ist.
