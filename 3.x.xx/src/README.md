@@ -1,3 +1,4 @@
 # Source-code
-* Here are the archived source-code files of the corresponding releases.
-* They were slightly modified, to build them on a "Debian" build-system.
+
+* Due to space-considerations, i will provide the latest actual sourcecode snapshot inkluding necessary patches here ...
+* They were slightly updated, to build them on a "Debian" build-system and to provide the latest actual included packages.
