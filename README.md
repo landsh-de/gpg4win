@@ -1,25 +1,29 @@
-[//]: # (Created by vitusb in 20220920)
+[//]: # (Changed by vitusb in 20230107)
 [//]: # (Get emojis from here: https://github.com/markdown-templates/markdown-emojis)
 
 # News
 
-### 20221027 (Release-Update Gpg4Win 3.1.25 verfügbar) :smiley: :tada:
+### 20230107 (Release-Update "Gpg4Win" v3.1.26 verfügbar) :smiley: :tada:
 
 - (de):
-Diese Version entspricht im Original dem Release "Gpg4Win" 3.1.25 mit einem zusätzlichen IMAP-Patch für GpgOL 2.5.4 (2.5.5), der gegenwärtig im Original von "Gpg4Win" / "GnuPG VS Desktop" der Version 3.1.25 nicht enthalten ist. Alle Änderungen entsprechen ausser dem IMAP-Patch, dem Original-Quellcode. Somit sind die [Release-Informationen](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.25) identisch. Der IMAP-Patch ist übrigens in der Version 4.0.4 schon enthalten, da hier "GpgOL 2.5.5" verwendet wird und dies der einzige Unterschied zu "GpgOL 2.5.4" ist.
+Diese Version entspricht im Original dem Release "Gpg4Win" v3.1.26 mit <b>!! fünf !!</b> zusätzlichen Patches, die <b>NACH DEM OFFIZIELLEN RELEASE</b> von "Gpg4Win" v3.1.26 im Zeitraum 2022-12-19 - 2022-12-21 veröffentlicht wurden und "Gpg4Win" auf den gleichen Versionsstand wie "GnuPG VS Desktop" v3.1.26 aktualisieren. Alle Änderungen entsprechen dem Original-Quellcode. Somit sind die veralteten [Release-Informationen zur Version 3.1.26](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.26) nicht mehr aktuell, da nachträglich folgende Patches hizugefügt werden mussten, um den gleichen Versionsstand wie "GnuPG VS Desktop" v3.1.26 zu erhalten:
 
 - (en):
-The original version of this version corresponds to the "Gpg4Win" 3.1.25 release with an additional IMAP-patch for GpgOL 2.5.4 (2.5.5), which is currently not available in the original "Gpg4Win"- / "GnuPG VS Desktop"-version 3.1.25. Except for the IMAP patch, all changes correspond to the original source code. Thus, the [Release-Notes](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.25) are identical. By the way, the IMAP-patch is already included in version 4.0.4, since "GpgOL 2.5.5" is used here and this is the only difference to "GpgOL 2.5.4".
+The original version of this version corresponds to the release "Gpg4Win" v3.1.26 with <b>!! five !!</b> additional patches, released <b>AFTER THE OFFICIAL RELEASE</b> of "Gpg4Win" v3.1.26 in the period between 2022-12-19 - 2022-12-21. These patches are updating "Gpg4Win" v3.1.26 to the same version as "GnuPG VS Desktop" v3.1.26. All changes correspond to the original source code. Thus, the outdated [release notes for version 3.1.26](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.26) are no longer up-to-date because the following patches had to be added later to get the same version as "GnuPG VS Desktop" v3.1.26:
+
+- [001_Switch_to_released_GpgOL_Version.patch](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=patch;h=9076d3f2bcab3f8c40b2ad7806f8ae6dfa160e1c)
+- [002_Update_gnupg_and_libksba.patch](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=patch;h=78c2361018fdd6e759ef04ebfd2f6f76e104733f)
+- [003_Update_GnuPG_packages_for_v3.patch](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=patch;h=a91a4792cc5d3b9f8e2a0b7403ce5e61841cfeac)
+- [004_Fix_checksums_of_GnuPG-2.2.41.patch](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=patch;h=aa5c7c1299dd385e4ca8bdfb9324c867f2fce270)
+- [005_Remove_all_files_when_uninstalling_gpg4win.patch](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=patch;h=e343c7208dc005f217e278c9f3a48385c299d1b8)
 
 # Gpg4Win
 
-(de): [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) der "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)
-<br>
-(en): [Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) of the "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=tags)
+[Installer-Builds](https://github.com/landsh-de/Gpg4Win/releases) "Gpg4Win" [Git-Releases](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git)
 
 <br>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/83558069/198218151-bc6e0eaa-95d9-405f-9e1f-50bb597f2d25.jpg" />
+  <img src="https://user-images.githubusercontent.com/83558069/211154653-37b7f124-9c5e-4afe-9ef3-a2ecae7179d1.jpg" />
 </p>
 
 ### (de)
@@ -30,7 +34,7 @@ The original version of this version corresponds to the "Gpg4Win" 3.1.25 release
 
 #### Bitte installieren Sie zur Aktivierung der "VS-NfD"-Konformität ("de-vs" Modus) von "Gpg4Win" das Companion-Werkzeug "[GpgTools](https://github.com/landsh-de/GpgTools/releases)" in der entsprechenden Version (i. e.: Gpg4Win 3.1.23 <=> GpgTools 1.3.23.x / Gpg4Win 3.1.25 <=> GpgTools 1.3.25.x) ...
 
-#### "[GpgTools](https://github.com/landsh-de/GpgTools)" ist ein "Addon" als Installer-Paket zur Herstellung der "VS-NfD"-Konformität ("de-vs" Modus) für das Open-Source Projekt "[Gpg4Win](https://github.com/landsh-de/Gpg4Win)".
+#### "[GpgTools](https://github.com/landsh-de/GpgTools)" ist ein "Addon" als Installer-Paket zur Herstellung der "VS-NfD"-Konformität ("de-vs" Modus) für das Open-Source Projekt "[Gpg4Win](https://gpg4win.de)".
 
 
 ### (en)
@@ -41,4 +45,4 @@ The original version of this version corresponds to the "Gpg4Win" 3.1.25 release
 
 #### To activate the "VS-NfD" conformity ("de-vs" mode) of "Gpg4Win", please install the companion tool "[GpgTools](https://github.com/landsh-de/GpgTools/releases)" in the appropriate version (i. e.: Gpg4Win 3.1.23 <=> GpgTools 1.3.23.x / Gpg4Win 3.1.25 <=> GpgTools 1.3.25.x) ...
 
-#### "[GpgTools](https://github.com/landsh-de/GpgTools)" is an "addon" as an installer package to create "VS-NfD" conformity ("de-vs" mode) for the open source project "[Gpg4Win](https://github.com/landsh-de/Gpg4Win)". <br><br>
+#### "[GpgTools](https://github.com/landsh-de/GpgTools)" is an "addon" as an installer package to create "VS-NfD" conformity ("de-vs" mode) for the open source project "[Gpg4Win](https://gpg4win.de)". <br><br>
