@@ -3,7 +3,7 @@
 
 # News
 
-### 20230107 (Release-Update "Gpg4Win" v3.1.26 verfügbar) :smiley: :tada:
+### 20230107 [Release-Update "Gpg4Win" v3.1.26 verfügbar](https://github.com/landsh-de/gpg4win/releases) :smiley: :tada:
 
 - (de):
 Diese Version entspricht im Original dem Release "Gpg4Win" v3.1.26 mit <b>!! fünf !!</b> zusätzlichen Patches, die <b>NACH DEM OFFIZIELLEN RELEASE</b> von "Gpg4Win" v3.1.26 im Zeitraum 2022-12-19 - 2022-12-21 veröffentlicht wurden und "Gpg4Win" auf den gleichen Versionsstand wie "GnuPG VS Desktop" v3.1.26 aktualisieren. Alle Änderungen entsprechen dem Original-Quellcode. Somit sind die veralteten [Release-Informationen zur Version 3.1.26](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=blob;f=NEWS;hb=refs/tags/gpg4win-3.1.26) nicht mehr aktuell, da nachträglich folgende Patches hizugefügt werden mussten, um den gleichen Versionsstand wie "GnuPG VS Desktop" v3.1.26 zu erhalten:
