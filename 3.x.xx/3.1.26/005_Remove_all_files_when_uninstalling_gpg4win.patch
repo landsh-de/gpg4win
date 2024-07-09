@@ -1,0 +1,105 @@
+#! /bin/sh
+patch -p1 -l -f $* < $0
+exit $?
+
+From e343c7208dc005f217e278c9f3a48385c299d1b8 Mon Sep 17 00:00:00 2001
+From: Andre Heinecke <aheinecke@gnupg.org>
+Date: Fri, 23 Dec 2022 10:49:25 +0100
+Subject: [PATCH] Remove all files when uninstalling gpg4win
+
+* src/inst-sections.nsi (uninst-kde-l10n): Include unconditionally.
+* src/uninst-gpgme.nsi, src/uninst-libassuan.nsi,
+  src/uninst-libgpg-error.nsi: Fix library names.
+* src/uninst-kde-l10n: Remove some unused code.
+---
+ src/inst-sections.nsi       | 2 --
+ src/uninst-gpgme.nsi        | 2 +-
+ src/uninst-kde-l10n.nsi     | 9 ---------
+ src/uninst-libassuan.nsi    | 2 +-
+ src/uninst-libgpg-error.nsi | 2 +-
+ 5 files changed, 3 insertions(+), 14 deletions(-)
+
+diff --git a/src/inst-sections.nsi b/src/inst-sections.nsi
+index 6a792e1f..add46e54 100644
+--- a/src/inst-sections.nsi
++++ b/src/inst-sections.nsi
+@@ -320,9 +320,7 @@
+ !ifdef HAVE_PKG_KMIME
+ !include "uninst-kmime.nsi"
+ !endif
+-!ifdef HAVE_PKG_KDE_L10N
+ !include "uninst-kde-l10n.nsi"
+-!endif
+ !ifdef HAVE_PKG_LIBKLEO
+ !include "uninst-libkleo.nsi"
+ !endif
+diff --git a/src/uninst-gpgme.nsi b/src/uninst-gpgme.nsi
+index 95be7353..70d5406d 100644
+--- a/src/uninst-gpgme.nsi
++++ b/src/uninst-gpgme.nsi
+@@ -35,7 +35,7 @@ Section "-un.gpgme"
+   Delete /REBOOTOK "$INSTDIR\bin\libgpgmepp-6.dll"
+ ${If} ${RunningX64}
+   Delete /REBOOTOK "$INSTDIR\bin_64\libgpgmepp-6.dll"
+-  Delete /REBOOTOK "$INSTDIR\bin_64\libgpgme11.dll"
++  Delete /REBOOTOK "$INSTDIR\bin_64\libgpgme-11.dll"
+   Delete /REBOOTOK "$INSTDIR\bin_64\gpgme-json.exe"
+   Delete "$INSTDIR\bin_64\gpgme-w32spawn.exe"
+ ${EndIf}
+diff --git a/src/uninst-kde-l10n.nsi b/src/uninst-kde-l10n.nsi
+index 41892f06..6a416f84 100644
+--- a/src/uninst-kde-l10n.nsi
++++ b/src/uninst-kde-l10n.nsi
+@@ -16,17 +16,9 @@
+ # You should have received a copy of the GNU General Public License
+ # along with this program; if not, write to the Free Software
+ # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA
+-!ifdef prefix
+-!undef prefix
+-!endif
+-!define prefix ${ipdir}/kde-l10n-${gpg4win_pkg_kde_l10n_version}
+ 
+ ; Uninstaller section.
+ Section "-un.kde-l10n"
+-!ifdef SOURCES
+-  Push "${gpg4win_pkg_kde-l10n}"
+-  Call un.SourceDelete
+-!else
+   Delete "$INSTDIR\share\locale\af\kf5_entry.desktop"
+   Delete "$INSTDIR\share\locale\af\LC_MESSAGES\kconfigwidgets5.mo"
+   Delete "$INSTDIR\share\locale\af\LC_MESSAGES\ki18n5.mo"
+@@ -1258,5 +1250,4 @@ RMDir "$INSTDIR\share\locale\zh_TW"
+ RMDir "$INSTDIR\share\locale"
+ RMDir "$INSTDIR\share"
+ RMDir "$INSTDIR"
+-!endif
+ SectionEnd
+diff --git a/src/uninst-libassuan.nsi b/src/uninst-libassuan.nsi
+index a83340c9..b4bcafa7 100644
+--- a/src/uninst-libassuan.nsi
++++ b/src/uninst-libassuan.nsi
+@@ -35,7 +35,7 @@ Section "-un.libassuan"
+   Delete "$INSTDIR\lib\libassuan.imp"
+   Delete "$INSTDIR\include\assuan.h"
+ ${If} ${RunningX64}
+-  Delete /REBOOTOK "$INSTDIR\bin_64\libassuan-0.dll"
++  Delete /REBOOTOK "$INSTDIR\bin_64\libassuan6-0.dll"
+ ${EndIf}
+ 
+ !endif
+diff --git a/src/uninst-libgpg-error.nsi b/src/uninst-libgpg-error.nsi
+index b9303927..65594392 100644
+--- a/src/uninst-libgpg-error.nsi
++++ b/src/uninst-libgpg-error.nsi
+@@ -42,7 +42,7 @@ Section "-un.libgpg-error"
+   Delete "$INSTDIR\lib\libgpg-assuan.imp"
+   Delete "$INSTDIR\include\gpg-error.h"
+ ${If} ${RunningX64}
+-  Delete /REBOOTOK "$INSTDIR\bin_64\libgpg-error-0.dll"
++  Delete /REBOOTOK "$INSTDIR\bin_64\libgpg-error6-0.dll"
+ ${EndIf}
+ 
+ !endif
+-- 
+2.11.0
+
