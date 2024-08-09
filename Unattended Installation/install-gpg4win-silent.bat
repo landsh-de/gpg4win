@@ -204,7 +204,7 @@ if not exist "%EXEDIR%\%INSTALLERCFG%" goto installercfgerror
 echo.
 REM :: Run NSIS-Installer Package with config-file
 echo.Starte INSTALLER, bitte warten ...
-start /wait "" "%EXEDIR%\%INSTALLER%" /S /C="%EXEDIR%\%INSTALLERCFG%"
+start /wait "" "%EXEDIR%\%INSTALLER%" /S /C=%EXEDIR%\%INSTALLERCFG%
 
 goto end
 
